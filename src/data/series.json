@@ -1,0 +1,211 @@
+{
+  "categories": ["Series", "Peliculas"],
+  "content": [
+    {
+      "id": 1,
+      "category": "Series",
+      "title": "The Seven Deadly Sins",
+      "netflixOriginal": true,
+      "thumbnail": "https://i.postimg.cc/XNrs7q0N/seven-deadly-sins.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                    "episodeTitle": "Principio del fin",
+                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 2,
+      "category": "Series",
+      "title": "Lucifer",
+      "thumbnail": "https://i.postimg.cc/d1xZxJW4/lucifer.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                    "episodeTitle": "Principio del fin",
+                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 3,
+      "category": "Series",
+      "title": "The Protector",
+      "netflixOriginal": true,
+      "thumbnail": "https://i.postimg.cc/L4GNqSHt/the-protector.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                    "episodeTitle": "Principio del fin",
+                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 4,
+      "category": "Series",
+      "title": "Love, Death & Robots",
+      "netflixOriginal": true,
+      "thumbnail": "https://i.postimg.cc/NMMrDKxK/love-death-robots.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                    "episodeTitle": "Principio del fin",
+                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 5,
+      "category": "Series",
+      "title": "Vikings",
+      "thumbnail": "https://i.postimg.cc/Hs53XNxf/vikings.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                    "episodeTitle": "Principio del fin",
+                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 6,
+      "category": "Peliculas",
+      "title": "Dark",
+      "netflixOriginal": true,
+      "thumbnail": "https://i.postimg.cc/Zqjd686k/dark.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                  "episodeTitle": "Principio del fin",
+                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 7,
+      "category": "Peliculas",
+      "title": "La Orden Secreta",
+      "netflixOriginal": true,
+      "thumbnail": "https://i.postimg.cc/QVL9j0Z7/the-order.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                  "episodeTitle": "Principio del fin",
+                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 8,
+      "category": "Peliculas",
+      "title": "The End of the F***ing World",
+      "netflixOriginal": true,
+      "thumbnail": "https://i.postimg.cc/VNztSGrB/end-of-the-f-world.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                  "episodeTitle": "Principio del fin",
+                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 9,
+      "category": "Peliculas",
+      "title": "Arrow",
+      "thumbnail": "https://i.postimg.cc/C5RkhRZ3/arrow.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                  "episodeTitle": "Principio del fin",
+                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    },
+    {
+      "id": 10,
+      "category": "Peliculas",
+      "title": "The Flash",
+      "thumbnail": "https://i.postimg.cc/Hn88GFRH/flash.png",
+      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
+      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "episodes": [{
+                  "episodeTitle": "Principio del fin",
+                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                  },
+                  {
+                    "episodeTitle": "El gato en la bolsa",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  },
+                  {
+                    "episodeTitle": "Y la bolsa en el rio",
+                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                  }]
+    }
+  ]
+}

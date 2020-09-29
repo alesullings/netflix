@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import series from './data/series.json';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Carousel from './components/Carousel';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      content: {
+        title: "BLACK SUMMER",
+        netflixOriginal: true,
+        backgroundImg: "https://i.postimg.cc/jtW1Rgs6/portada.png",
+        synopsis: 'Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.'
+      }
+    } 
+  }
+  
+
+  render() {
+    console.log(series.categories);
+    return(
+      <>
+        <Navbar />
+        <Hero content={this.state.content} />
+        {series.categories.map((category, key) => {
+          return(
+            <Carousel key={key} category={category} />
+          )
+        })}
+      </>
+    )
+  }
 }
 
 export default App;
