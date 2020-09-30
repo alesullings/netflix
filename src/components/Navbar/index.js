@@ -13,7 +13,7 @@ class Navbar extends React.Component {
           <a href="#" className="sectionLink">Inicio</a>
           <a href="#Series" className="sectionLink">Series</a>
           <a href="#Peliculas" className="sectionLink">Peliculas</a>
-          <a href="#Recientes" className="sectionLink">Vistos recientemente</a>
+          <a href="#Recientes" className="sectionLink">Vistas recientemente</a>
           <a className="sectionLink">Mi lista</a>
         </div>
       </div>

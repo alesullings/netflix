@@ -4,208 +4,230 @@
     {
       "id": 1,
       "category": "Series",
-      "title": "The Seven Deadly Sins",
+      "title": "DARK",
       "netflixOriginal": true,
-      "thumbnail": "https://i.postimg.cc/XNrs7q0N/seven-deadly-sins.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "thumbnail": "https://i.postimg.cc/kGVvqX47/dark-thumbnail.png",
+      "synopsis": "2019. La desaparición de un niño local aterroriza a los habitantes de Winden, un pueblito alemán con una historia tan trágica como extraña.",
+      "backgroundImg": "https://i.postimg.cc/zfVCnGCK/dark-portada.png",
       "episodes": [{
-                    "episodeTitle": "Principio del fin",
-                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                    "episodeTitle": "Secretos",
+                    "episodeThumbnail": "https://i.postimg.cc/Xv0HLFvd/dark-e01.png"
                   },
                   {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "Mentiras",
+                    "episodeThumbnail": "https://i.postimg.cc/SQtg5Hsy/dark-e02.png"
                   },
                   {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "Pasado y presente",
+                    "episodeThumbnail": "https://i.postimg.cc/7hbmhnB8/dark-e03.png"
+                  },
+                  {
+                    "episodeTitle": "Dobles vidas",
+                    "episodeThumbnail": "https://i.postimg.cc/qqYQ36Yt/dark-e04.png"
+                  },
+                  {
+                    "episodeTitle": "Verdades",
+                    "episodeThumbnail": "https://i.postimg.cc/9F6JXTZK/dark-e05.png"
+                  },
+                  {
+                    "episodeTitle": "Sic mundus creatus est",
+                    "episodeThumbnail": "https://i.postimg.cc/ydLL7byy/dark-e06.png"
+                  },
+                  {
+                    "episodeTitle": "Encrucijadas",
+                    "episodeThumbnail": "https://i.postimg.cc/d1sWPYr0/dark-e07.png"
+                  },
+                  {
+                    "episodeTitle": "Cosechas lo que siembras",
+                    "episodeThumbnail": "https://i.postimg.cc/5t33mRTW/dark-e08.png"
+                  },
+                  {
+                    "episodeTitle": "Todo es ahora",
+                    "episodeThumbnail": "https://i.postimg.cc/fLqfG0MH/dark-e09.png"
+                  },
+                  {
+                    "episodeTitle": "Alfa y omega",
+                    "episodeThumbnail": "https://i.postimg.cc/bv8gkh6R/dark-e10.png"
                   }]
     },
     {
       "id": 2,
       "category": "Series",
-      "title": "Lucifer",
-      "thumbnail": "https://i.postimg.cc/d1xZxJW4/lucifer.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "title": "HIP-HOP EVOLUTION",
+      "netflixOriginal": true,
+      "thumbnail": "https://i.postimg.cc/g2yqY7YL/hiphop-thumbnail.png",
+      "synopsis": "Esta serie documental explora la evolución del hiphop desde los setenta hasta los años 2000 mediante entrevistas con MC, varios DJ y otras figuras de la música.",
+      "backgroundImg": "https://i.postimg.cc/zv5HPzgd/hiphop-portada.png",
       "episodes": [{
-                    "episodeTitle": "Principio del fin",
-                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                    "episodeTitle": "El cimiento",
+                    "episodeThumbnail": "https://i.postimg.cc/gJ2KtKbX/hiphop-e01.png"
                   },
                   {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "Del underground a lo popular",
+                    "episodeThumbnail": "https://i.postimg.cc/prgYTbhz/hiphop-e02.png"
                   },
                   {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "La nueva guardia",
+                    "episodeThumbnail": "https://i.postimg.cc/CLqs21XN/hiphop-e03.png"
+                  },
+                  {
+                    "episodeTitle": "El rap pandillero",
+                    "episodeThumbnail": "https://i.postimg.cc/g2bHbpPP/hiphop-e04.png"
                   }]
     },
     {
       "id": 3,
       "category": "Series",
-      "title": "The Protector",
+      "title": "THE MIDNIGHT GOSPEL",
       "netflixOriginal": true,
-      "thumbnail": "https://i.postimg.cc/L4GNqSHt/the-protector.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "thumbnail": "https://i.postimg.cc/43N8jGzx/midnightgospel-thumbnail.png",
+      "synopsis": "Un locutor espacial visita mundos alucinantes en su simulador de universos buscando respuestas a todo tipo de preguntas existenciales.",
+      "backgroundImg": "https://i.postimg.cc/rwpxkwY3/midnightgospel-portada.png",
       "episodes": [{
-                    "episodeTitle": "Principio del fin",
-                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                    "episodeTitle": "Malditos zombis",
+                    "episodeThumbnail": "https://i.postimg.cc/B6bxBQ22/midnightgospel-s01e01.png"
                   },
                   {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "Medita como Cristo",
+                    "episodeThumbnail": "https://i.postimg.cc/sXL56dJq/midnightgospel-s01e02.png"
                   },
                   {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "¿Vomitas helado?",
+                    "episodeThumbnail": "https://i.postimg.cc/5yFLD770/midnightgospel-s01e03.png"
+                  },
+                  {
+                    "episodeTitle": "Ordeñar el cuervito",
+                    "episodeThumbnail": "https://i.postimg.cc/xjkZ09Bk/midnightgospel-s01e04.png"
+                  },
+                  {
+                    "episodeTitle": "Saca esas cucharas",
+                    "episodeThumbnail": "https://i.postimg.cc/fTmg9BzD/midnightgospel-s01e05.png"
+                  },
+                  {
+                    "episodeTitle": "El trasero de tu mente",
+                    "episodeThumbnail": "https://i.postimg.cc/t4bvtWJP/midnightgospel-s01e06.png"
+                  },
+                  {
+                    "episodeTitle": "Muerte, me encantó conocerte",
+                    "episodeThumbnail": "https://i.postimg.cc/FF2Bz2QT/midnightgospel-s01e07.png"
+                  },
+                  {
+                    "episodeTitle": "Desde adentro",
+                    "episodeThumbnail": "https://i.postimg.cc/6phjHq4P/midnightgospel-s01e08.png"
                   }]
     },
     {
       "id": 4,
       "category": "Series",
-      "title": "Love, Death & Robots",
-      "netflixOriginal": true,
-      "thumbnail": "https://i.postimg.cc/NMMrDKxK/love-death-robots.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "title": "PEEP SHOW",
+      "netflixOriginal": false,
+      "thumbnail": "https://i.postimg.cc/MKSmhxwJ/peepshow-thumbnail.png",
+      "synopsis": "Después de que su novia lo deja en la calle, un holgazán se muda con su amigo introvertido que tiene una diferente ¿o disfuncional? visión de vida.",
+      "backgroundImg": "https://i.postimg.cc/G3JyTyW6/peepshow-portada.png",
       "episodes": [{
-                    "episodeTitle": "Principio del fin",
-                    "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                    "episodeTitle": "En guerra",
+                    "episodeThumbnail": "https://i.postimg.cc/jd0MtPz9/peepshow-e01.png"
                   },
                   {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "La entrevista",
+                    "episodeThumbnail": "https://i.postimg.cc/BQTM6bpv/peepshow-e02.png"
                   },
                   {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "Al acecho",
+                    "episodeThumbnail": "https://i.postimg.cc/HkT37mv9/peepshow-e03.png"
+                  },
+                  {
+                    "episodeTitle": "Mark hace un amigo",
+                    "episodeThumbnail": "https://i.postimg.cc/0NBC3wkV/peepshow-e04.png"
+                  },
+                  {
+                    "episodeTitle": "Trabajo soñado",
+                    "episodeThumbnail": "https://i.postimg.cc/LXgVM8h2/peepshow-e05.png"
+                  },
+                  {
+                    "episodeTitle": "Funeral",
+                    "episodeThumbnail": "https://i.postimg.cc/RhcQNpcY/peepshow-e06.png"
                   }]
     },
     {
       "id": 5,
       "category": "Series",
-      "title": "Vikings",
-      "thumbnail": "https://i.postimg.cc/Hs53XNxf/vikings.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
+      "title": "THE PUNISHER",
+      "thumbnail": "https://i.postimg.cc/bNp1mT0z/punisher-thumbnail.png",
+      "synopsis": "Un exmarine planea descargar toda su furia contra los criminales que mataron a su familia, pero el rastro del submundo también lleva a una oscura conspiración militar.",
+      "backgroundImg": "https://i.postimg.cc/7YHT3LDh/punisher-portada.png",
       "episodes": [{
-                    "episodeTitle": "Principio del fin",
-                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
+                    "episodeTitle": "3 a.m.",
+                  "episodeThumbnail": "https://i.postimg.cc/qMxxrYBh/punisher-e01.png"
                   },
                   {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "Dos hombres muertos",
+                    "episodeThumbnail": "https://i.postimg.cc/x1sGJzz9/punisher-e02.png"
                   },
                   {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
+                    "episodeTitle": "Kandahar",
+                    "episodeThumbnail": "https://i.postimg.cc/wBZhFY2P/punisher-e03.png"
+                  },
+                  {
+                    "episodeTitle": "Suministros",
+                  "episodeThumbnail": "https://i.postimg.cc/zv1TZw9F/punisher-e04.png"
+                  },
+                  {
+                    "episodeTitle": "Gunner",
+                    "episodeThumbnail": "https://i.postimg.cc/pTjK6c1d/punisher-e05.png"
+                  },
+                  {
+                    "episodeTitle": "La cabra de Judas",
+                    "episodeThumbnail": "https://i.postimg.cc/gjq8YXpF/punisher-e06.png"
                   }]
     },
     {
       "id": 6,
       "category": "Peliculas",
-      "title": "Dark",
-      "netflixOriginal": true,
-      "thumbnail": "https://i.postimg.cc/Zqjd686k/dark.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
-      "episodes": [{
-                  "episodeTitle": "Principio del fin",
-                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
-                  },
-                  {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  },
-                  {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  }]
+      "title": "AKIRA",
+      "netflixOriginal": false,
+      "thumbnail": "https://i.postimg.cc/5tqPR0HG/akira-thumbnail.png",
+      "synopsis": "En esta animación basada en un popular manga, dos amigos entran a un mundo posapocalíptico donde no tienen otra opción que luchar por la supervivencia.",
+      "backgroundImg": "https://i.postimg.cc/htmZVMKK/akira-portada.png",
+      "episodes": []
     },
     {
       "id": 7,
       "category": "Peliculas",
-      "title": "La Orden Secreta",
+      "title": "LOST IN TRANSLATION",
       "netflixOriginal": true,
-      "thumbnail": "https://i.postimg.cc/QVL9j0Z7/the-order.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
-      "episodes": [{
-                  "episodeTitle": "Principio del fin",
-                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
-                  },
-                  {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  },
-                  {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  }]
+      "thumbnail": "https://i.postimg.cc/YCygqB59/translation-thumbnail.png",
+      "synopsis": "Dos almas perdidas, la abandonada esposa de un fotógrafo y una estrella de cine acabada, visitan Tokio y encuentran consuelo genuino en compañía del otro.",
+      "backgroundImg": "https://i.postimg.cc/qM16jdML/translation-portada.png",
+      "episodes": []
     },
     {
       "id": 8,
       "category": "Peliculas",
-      "title": "The End of the F***ing World",
+      "title": "PARASITE",
       "netflixOriginal": true,
-      "thumbnail": "https://i.postimg.cc/VNztSGrB/end-of-the-f-world.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
-      "episodes": [{
-                  "episodeTitle": "Principio del fin",
-                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
-                  },
-                  {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  },
-                  {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  }]
+      "thumbnail": "https://i.postimg.cc/wMJFDjd0/parasite-thumbnail.png",
+      "synopsis": "Uno a uno, los astutos miembros de una familia sin recursos comienzan a desempeñarse como personal doméstico en la casa de una adinerada y privilegiada pareja.",
+      "backgroundImg": "https://i.postimg.cc/V6XbRrdr/parasite-portada.png",
+      "episodes": []
     },
     {
       "id": 9,
       "category": "Peliculas",
-      "title": "Arrow",
-      "thumbnail": "https://i.postimg.cc/C5RkhRZ3/arrow.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
-      "episodes": [{
-                  "episodeTitle": "Principio del fin",
-                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
-                  },
-                  {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  },
-                  {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  }]
+      "title": "Nausicaä",
+      "thumbnail": "https://i.postimg.cc/3wSLTqBC/nausicaa-thumbnail.png",
+      "synopsis": "Ante la destrucción de los recursos naturales de su planeta, la princesa guerrera Nausicaa lidera a su pueblo contra el violento ejército de una reina malvada.",
+      "backgroundImg": "https://i.postimg.cc/jqzz697g/nausicaa-portada.png",
+      "episodes": []
     },
     {
       "id": 10,
       "category": "Peliculas",
-      "title": "The Flash",
-      "thumbnail": "https://i.postimg.cc/Hn88GFRH/flash.png",
-      "synopsis": "Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.",
-      "backgroundImg": "https://i.postimg.cc/jtW1Rgs6/portada.png",
-      "episodes": [{
-                  "episodeTitle": "Principio del fin",
-                  "episodeThumbnail": "https://i.postimg.cc/cCPYrdwr/breakingbad01.png"
-                  },
-                  {
-                    "episodeTitle": "El gato en la bolsa",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  },
-                  {
-                    "episodeTitle": "Y la bolsa en el rio",
-                    "episodeThumbnail": "https://i.postimg.cc/yYSc2SC9/breakingbad02.png"
-                  }]
+      "title": "THE BIG LEBOWSKI",
+      "thumbnail": "https://i.postimg.cc/1zJGFNV9/lebowski-thumbnail.png",
+      "synopsis": "El holgazán Jeff Lebowski se involucra en una vorágine de eventos cuando lo confunden con otro Lebowski.",
+      "backgroundImg": "https://i.postimg.cc/Qxm1wTSc/lebowski-portada.png",
+      "episodes": []
     }
   ]
 }

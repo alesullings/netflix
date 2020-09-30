@@ -47,8 +47,8 @@ class SelectedContent extends React.Component {
           <Slider {...this.settings} >
             {this.state.episodes.map((episode, key) => {
               return(
-              <div>
-                <img src={episode.episodeThumbnail} key={key} />
+              <div className="imgContainer">
+                <img className="serieImg" src={episode.episodeThumbnail} key={key} />
               </div>
               )
             })}

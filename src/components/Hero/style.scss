@@ -1,48 +1,54 @@
 .background {
   width: 100vw;
   padding-top: 13rem;
-
-  .heroWrapper {
-    margin-left: 5rem;
-    color: #fff;
-
-    .netflixOriginal {
-      font-size: 1.75rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-    }
-    .serieTitle {
-      font-size: 7.5rem;
-      width: 45rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-    }
   
-    .buttonsWrapper {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 1.5rem;
+  .gradient {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 00%, rgba(255,255,255,0) 10%, rgba(0,0,0,1) 100%);
   
-      .button {
-        flex-shrink: 0;
-        margin-right: 2rem;
-        font-size: 1.3rem;
-        width: 12.3rem;
-        background: rgba(157, 151, 151, 0.54);
-        text-align: center;
-        padding: 1.5rem 0;
-        border-radius: .5rem;
+    .heroWrapper {
+      margin-left: 5rem;
+      color: #fff;
+      
+  
+      .netflixOriginal {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
       }
-    }
-    .currentSeason {
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-    }
-  
-    .synopsis {
-      font-size: 1.5rem;
-      width: 38rem;
-      line-height: 2rem;
+      .serieTitle {
+        font-size: 7.5rem;
+        width: 45rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+    
+      .buttonsWrapper {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1.5rem;
+    
+        .button {
+          flex-shrink: 0;
+          margin-right: 2rem;
+          font-size: 1.3rem;
+          width: 12.3rem;
+          background: rgba(157, 151, 151, 0.54);
+          text-align: center;
+          padding: 1.5rem 0;
+          border-radius: .5rem;
+        }
+      }
+      .currentSeason {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+    
+      .synopsis {
+        font-size: 1.5rem;
+        width: 38rem;
+        line-height: 2rem;
+        padding-bottom: 1rem;
+      }
     }
   }
 }
