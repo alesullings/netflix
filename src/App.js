@@ -12,7 +12,7 @@ class App extends React.Component {
 
     this.state = {
       content: {
-        title: "BLACK SUMMER",
+        title: "BLACK SUMMA",
         netflixOriginal: true,
         backgroundImg: "https://i.postimg.cc/jtW1Rgs6/portada.png",
         synopsis: 'Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.'
