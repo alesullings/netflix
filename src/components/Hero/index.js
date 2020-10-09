@@ -6,7 +6,7 @@ class Hero extends React.Component {
   render() { 
     const {title, netflixOriginal, backgroundImg, synopsis} = this.props.content;
     return (
-      <div className="background" style={{background: "url(" + backgroundImg + ")" + "no-repeat", width: "100%", backgroundSize: "cover"}} >
+      <div className="background" style={{background: "url(" + backgroundImg + ")" + "0px 0px/cover"}} >
         <div className="gradient">
           <div className="heroWrapper">
             {netflixOriginal && (
