@@ -35,12 +35,14 @@ class Carousel extends React.Component {
     })
   }
 
-  
+  handleClick(element) {
+    console.log(element);
+  }
+
 
   render() {
     const {category} = this.props;
     const {content} = this.state;
-    
     return(
       <div className="carousel">
         <h3 id={category} className="carouselTitle">{category}</h3>
@@ -48,8 +50,8 @@ class Carousel extends React.Component {
           {content.map((element, key) => {
             return(
               <Link to={`/content/${element.id}`}>
-                <div className="imgContainer">
-                  <img className="serieImg" src={element.thumbnail} key={key} />
+                <div className="imgContainer" key={key}>
+                  <img className="serieImg" src={element.thumbnail} onClick={(element) => this.handleClick(element) } />
                 </div>
               </Link>
             )

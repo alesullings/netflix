@@ -12,21 +12,21 @@ class App extends React.Component {
 
     this.state = {
       content: {
-        title: "BLACK SUMMER",
-        netflixOriginal: true,
-        backgroundImg: "https://i.postimg.cc/jtW1Rgs6/portada.png",
-        synopsis: 'Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si sobreviven, seran unas vacaciones de ensueno.'
+        title: "BREAKING BAD",
+        netflixOriginal: false,
+        backgroundImg: "https://estaticos.elperiodico.com/resources/jpg/0/4/bryan-cranston-aaron-paul-una-escena-serie-breaking-bad-1516470621440.jpg",
+        synopsis: 'Un profesor de Química de secundaria con cáncer terminal se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.'
       }
     } 
   }
   
 
   render() {
-    console.log(series.categories);
+    const {content} = this.state;
     return(
       <>
         <Navbar />
-        <Hero content={this.state.content} />
+        <Hero content={content} />
         {series.categories.map((category, key) => {
           return(
             <Carousel key={key} category={category} />

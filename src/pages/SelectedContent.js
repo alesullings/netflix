@@ -36,16 +36,20 @@ class SelectedContent extends React.Component {
     })
   }
   
+
+
   render() {
-    
+    const { content, episodes } = this.state;
     return( 
       <>
         <Navbar />
-        <Hero content={this.state.content} />
+        <Hero content={content} />
         <div className="carousel">
-          <h3 className="carouselTitle">Temporada 1</h3>
+          {content.category === "Series" && (
+            <h3 className="carouselTitle">Temporada 1</h3>
+          )}
           <Slider {...this.settings} >
-            {this.state.episodes.map((episode, key) => {
+            {episodes.map((episode, key) => {
               return(
               <div className="imgContainer">
                 <img className="serieImg" src={episode.episodeThumbnail} key={key} />

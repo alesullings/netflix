@@ -4,7 +4,7 @@ import './style.scss';
 class Hero extends React.Component {
 
   render() { 
-    const {title, netflixOriginal, backgroundImg, synopsis} = this.props.content;
+    const {title, netflixOriginal, backgroundImg, synopsis } = this.props.content;
     return (
       <div className="background" style={{background: "url(" + backgroundImg + ")" + "0px 0px/cover"}} >
         <div className="gradient">
@@ -25,9 +25,6 @@ class Hero extends React.Component {
                 + mi lista
               </div>
             </div>
-            <p className="currentSeason">
-              Ve la temporada 1
-            </p> 
             <p className="synopsis">
               {synopsis}
             </p>
