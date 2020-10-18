@@ -25,7 +25,7 @@ class App extends React.Component {
     this.settings = {
       slidesToShow: 3,
       slidesToScroll: 1,
-      infinite: true,
+      infinite: false,
       speed: 500,
       accessibility: true,
       arrows: true,
@@ -59,6 +59,7 @@ class App extends React.Component {
                 <Link to={`/content/${element.id}`}>
                   <div className="imgContainer" key={key}>
                     <img className="serieImg" src={element.thumbnail} onClick={ () => this.handleClick(element) } />
+                    <div className="progressBar"></div>
                   </div>
                 </Link>
               )
