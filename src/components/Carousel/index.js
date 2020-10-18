@@ -40,9 +40,13 @@ class Carousel extends React.Component {
    
     if (stringifiedSeries) {
       const parsedSeries = JSON.parse(stringifiedSeries)
-      parsedSeries.push(element)
-      const newSeries = JSON.stringify(parsedSeries)
-      localStorage.setItem('series', newSeries)
+
+      if(!parsedSeries.some(serie => serie.id === element.id)) {
+        parsedSeries.push(element)
+        const newSeries = JSON.stringify(parsedSeries)
+        localStorage.setItem('series', newSeries)
+      }
+      
     } else {
       const parsedSeries = [element]
       const newSeries = JSON.stringify(parsedSeries)
