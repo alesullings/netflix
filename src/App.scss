@@ -23,9 +23,16 @@ body {
       border-radius: 5px;
     }
     .progressBar {
-      height: 10px;
-      width: 100px;
-      color: red;
+      height: 5px;
+      width: 20rem;
+      background-color: gray;
+      margin: 1rem auto;
+
+      .redBar {
+        height: 5px;
+        width: 5rem;
+        background-color: red;
+      }
     }
   }
 }

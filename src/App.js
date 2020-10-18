@@ -59,7 +59,10 @@ class App extends React.Component {
                 <Link to={`/content/${element.id}`}>
                   <div className="imgContainer" key={key}>
                     <img className="serieImg" src={element.thumbnail} onClick={ () => this.handleClick(element) } />
-                    <div className="progressBar"></div>
+                    <div className="progressBar">
+                      <div className="redBar">
+                      </div>
+                    </div>
                   </div>
                 </Link>
               )
