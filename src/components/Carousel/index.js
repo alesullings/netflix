@@ -21,7 +21,6 @@ class Carousel extends React.Component {
       speed: 500,
       accessibility: true,
       arrows: true,
-      
     }
   }
 
@@ -36,9 +35,21 @@ class Carousel extends React.Component {
   }
 
   handleClick(element) {
-    console.log(element);
-  }
+    
+    const stringifiedSeries = localStorage.getItem('series');
+   
+    if (stringifiedSeries) {
+      const parsedSeries = JSON.parse(stringifiedSeries)
+      parsedSeries.push(element)
+      const newSeries = JSON.stringify(parsedSeries)
+      localStorage.setItem('series', newSeries)
+    } else {
+      const parsedSeries = [element]
+      const newSeries = JSON.stringify(parsedSeries)
+      localStorage.setItem('series', newSeries)
+    }
 
+  }
 
   render() {
     const {category} = this.props;
@@ -51,7 +62,7 @@ class Carousel extends React.Component {
             return(
               <Link to={`/content/${element.id}`}>
                 <div className="imgContainer" key={key}>
-                  <img className="serieImg" src={element.thumbnail} onClick={(element) => this.handleClick(element) } />
+                  <img className="serieImg" src={element.thumbnail} onClick={ () => this.handleClick(element) } />
                 </div>
               </Link>
             )
