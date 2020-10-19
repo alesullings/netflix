@@ -64,12 +64,17 @@ class App extends React.Component {
 
   render() {
     const {content, keepWatching} = this.state;
+    const stringifiedSeries = localStorage.getItem('series');
     return(
       <>
         <Navbar />
         <Hero content={content} />
         <div className="keepWatching">
-          <h3 id="Recientes" className="carouselTitle">Seguir viendo</h3>
+          {stringifiedSeries && (
+            <h3 id="Recientes" className="carouselTitle">
+              Seguir viendo
+            </h3>
+          )}
           <Slider {...this.settings}>
             {keepWatching.map((element, key) => {
               return(
