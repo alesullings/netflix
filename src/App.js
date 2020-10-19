@@ -23,12 +23,29 @@ class App extends React.Component {
     }
     
     this.settings = {
-      slidesToShow: 3,
+      slidesToShow: 5,
       slidesToScroll: 1,
       infinite: false,
       speed: 500,
       accessibility: true,
       arrows: true,
+      responsive: [
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            
+          }
+        }
+      ]
     }
   }
   
