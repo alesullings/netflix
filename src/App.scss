@@ -1,5 +1,9 @@
+// imports
 @import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+// breakpoints
+$mobile-breakpoint: 480px;
 
 body {
   font-size: 16px;
@@ -14,24 +18,38 @@ body {
   margin-top: 2.75rem;
   margin-left: 5rem;
   width: 1050px;
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 350px;
+    margin-left: 3rem;
+  }
   
   .carouselTitle {
     margin-bottom: 1rem;
   }
   .imgContainer {
+    
     .serieImg {
       border-radius: 5px;
+      
+      @media (max-width: $mobile-breakpoint) {
+        width: 350px;
+      }
+      
     }
     .progressBar {
       height: 5px;
       width: 20rem;
       background-color: gray;
-      margin: 1rem auto;
+      margin-top: 1rem;
+      margin-left: .8rem;
+      border-radius: 2px;
 
       .redBar {
         height: 5px;
         width: 5rem;
         background-color: red;
+        border-radius: 2px;
       }
     }
   }

@@ -38,9 +38,9 @@ class App extends React.Component {
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 480,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             
           }
@@ -75,7 +75,7 @@ class App extends React.Component {
               return(
                 <Link to={`/content/${element.id}`}>
                   <div className="imgContainer" key={key}>
-                    <img className="serieImg" src={element.thumbnail} onClick={ () => this.handleClick(element) } />
+                    <img className="serieImg" src={element.thumbnail} />
                     <div className="progressBar">
                       <div className="redBar">
                       </div>

@@ -1,13 +1,16 @@
+// breakpoints
+$mobile-breakpoint: 480px;
+
 a {
   text-decoration: none;
   color: #fff;
 }
 
-.navbar {
+.header {
   display: flex;
   align-items: center;
   padding: 0.8rem 0 0.8rem 5rem;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   color: #fff;
   font-weight: 700;
   position: fixed;
@@ -15,13 +18,53 @@ a {
   font-size: 1.3rem;
   z-index: 999;
   
-  .linksWrapper {
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 1rem;
+  }
+  
+  .hamburgerMenu {
+    margin-right: 1rem;
+    display: none;
+
+    @media (max-width: $mobile-breakpoint) {
+      display: inline;
+    }
+  }
+
+  .navbar {
     display: flex;
     margin-left: 5.4rem;
-    
+
+    @media (max-width: $mobile-breakpoint) {
+      display: none;
+      
+    }
     .sectionLink {
       flex-shrink: 0;
       margin-right: 1.7rem;
+    }
+    
+  }
+}
+.mobileHeader {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 4.25rem;
+  height: 100%;
+  width: 218px;
+  position: fixed;
+  display: none;  
+  z-index: 999;
+
+  .mobileNavbar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-left: 13px;
+    font-weight: 700;
+    font-size: 1.3rem;
+ 
+    .sectionLink {
+      padding: 1.25rem;     
     }
   }
 }

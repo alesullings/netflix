@@ -1,3 +1,6 @@
+// breakpoints
+$mobile-breakpoint: 480px;
+
 .background {
   padding-top: 13rem;
 
@@ -8,17 +11,28 @@
       margin-left: 5rem;
       color: #fff;
       
+      @media (max-width: $mobile-breakpoint) {
+        margin-left: 3rem;
+      }
   
       .netflixOriginal {
         font-size: 1.75rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        
+        @media (max-width: $mobile-breakpoint) {
+          display: none;
+        }
       }
       .serieTitle {
         font-size: 7.5rem;
         width: 45rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        
+        @media (max-width: $mobile-breakpoint) {
+          font-size: 2rem;
+        }
       }
     
       .buttonsWrapper {
@@ -35,7 +49,11 @@
           text-align: center;
           padding: 1.5rem 0;
           border-radius: .5rem;
-
+          
+          @media (max-width: $mobile-breakpoint) {
+            width: 10rem;
+            padding: 1rem 0;
+          }
           &:hover {
             background: red;
           }
@@ -51,6 +69,10 @@
         width: 38rem;
         line-height: 2rem;
         padding-bottom: 1rem;
+        
+        @media (max-width: $mobile-breakpoint) {
+          display: none;
+        }
       }
     }
   }

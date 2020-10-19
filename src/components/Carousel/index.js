@@ -21,6 +21,23 @@ class Carousel extends React.Component {
       speed: 500,
       accessibility: true,
       arrows: true,
+      responsive: [
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            
+          }
+        }
+      ]
     }
   }
 
