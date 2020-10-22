@@ -46,24 +46,3 @@ a {
     
   }
 }
-.mobileHeader {
-  background-color: rgba(0, 0, 0, 0.9);
-  margin-top: 4.25rem;
-  height: 100%;
-  width: 218px;
-  position: fixed;  
-  z-index: 999;
-
-  .mobileNavbar {
-    display: flex;
-    flex-direction: column;
-    margin-top: 24px;
-    margin-left: 13px;
-    font-weight: 700;
-    font-size: 1.3rem;
- 
-    .sectionLink {
-      padding: 1.25rem;     
-    }
-  }
-}

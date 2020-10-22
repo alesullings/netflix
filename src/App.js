@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import series from './data/series.json';
 import Navbar from './components/Navbar';
+import MobileNav from './components/MobileNav';
 import Hero from './components/Hero';
 import Carousel from './components/Carousel';
 import Slider from 'react-slick';
@@ -19,7 +20,8 @@ class App extends React.Component {
         backgroundImg: "https://estaticos.elperiodico.com/resources/jpg/0/4/bryan-cranston-aaron-paul-una-escena-serie-breaking-bad-1516470621440.jpg",
         synopsis: 'Un profesor de Química de secundaria con cáncer terminal se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.'
       },
-      keepWatching: []
+      keepWatching: [],
+      navToggle: false
     }
     
     this.settings = {
@@ -61,13 +63,28 @@ class App extends React.Component {
     }    
   }
 
+  handleCallback() {
+    this.setState(state => ({
+      navToggle: !state.navToggle
+    }))
+    
+  }
+
+  handleClick() {
+    this.setState({
+      navToggle: false
+    })
+  }
 
   render() {
-    const {content, keepWatching} = this.state;
+    const {content, keepWatching, navToggle} = this.state;
     const stringifiedSeries = localStorage.getItem('series');
     return(
-      <>
-        <Navbar />
+      <div className="App" onClick={() => this.handleClick()}>
+        <Navbar handleCallback={ () => this.handleCallback() } />
+        {navToggle && (
+          <MobileNav />
+        )}
         <Hero content={content} />
         <div className="keepWatching">
           {stringifiedSeries && (
@@ -96,7 +113,7 @@ class App extends React.Component {
             <Carousel key={key} category={category} />
           )
         })}
-      </>
+      </div>
     )
   }
 }
