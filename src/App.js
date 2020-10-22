@@ -40,7 +40,7 @@ class App extends React.Component {
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 360,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -80,8 +80,8 @@ class App extends React.Component {
     const {content, keepWatching, navToggle} = this.state;
     const stringifiedSeries = localStorage.getItem('series');
     return(
-      <div className="App" onClick={() => this.handleClick()}>
-        <Navbar handleCallback={ () => this.handleCallback() } />
+      <div className="app" onClick={() => this.handleClick()}>
+        <Navbar handleCallback={() => this.handleCallback()} />
         {navToggle && (
           <MobileNav />
         )}
@@ -110,7 +110,7 @@ class App extends React.Component {
         </div>
         {series.categories.map((category, key) => {
           return(
-            <Carousel key={key} category={category} />
+            <Carousel className="carouselWrapper" key={key} category={category} />
           )
         })}
       </div>

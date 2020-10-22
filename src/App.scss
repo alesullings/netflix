@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 // breakpoints
-$mobile-breakpoint: 480px;
+$mobile-breakpoint: 360px;
 
 body {
   font-size: 16px;
@@ -17,15 +17,19 @@ body {
   font-weight: 700;
   margin-top: 2.75rem;
   margin-left: 5rem;
-  width: 1050px;
+  width: 66rem;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 350px;
-    margin-left: 3rem;
+    width: 17rem;
+    margin-left: 2rem;
   }
   
   .carouselTitle {
     margin-bottom: 1rem;
+    
+    @media (max-width: $mobile-breakpoint) {
+      font-size: 1.2rem;
+    }
   }
   .imgContainer {
     
@@ -33,7 +37,7 @@ body {
       border-radius: 5px;
       
       @media (max-width: $mobile-breakpoint) {
-        width: 350px;
+        width: 17rem;
       }
       
     }
@@ -44,6 +48,10 @@ body {
       margin-top: 1rem;
       margin-left: .8rem;
       border-radius: 2px;
+
+      @media (max-width: $mobile-breakpoint) {
+        width: 16rem;
+      }
 
       .redBar {
         height: 5px;

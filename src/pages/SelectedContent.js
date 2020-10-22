@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Slider from 'react-slick';
 import './style.scss';
+import MobileNav from '../components/MobileNav';
 
 class SelectedContent extends React.Component {
  
@@ -12,7 +13,8 @@ class SelectedContent extends React.Component {
 
     this.state = {
       content: [],
-      episodes: []
+      episodes: [],
+      navToggle: false
     }
     
     this.settings = {
@@ -39,7 +41,6 @@ class SelectedContent extends React.Component {
         }
       ]
     }
-
   }
  
   componentDidMount() {
@@ -53,13 +54,27 @@ class SelectedContent extends React.Component {
     })
   }
   
-
+  handleCallback() {
+    this.setState(state => ({
+      navToggle: !state.navToggle
+    }))
+    
+  }
+  
+  handleClick() {
+    this.setState({
+      navToggle: false
+    })
+  }
 
   render() {
-    const { content, episodes } = this.state;
+    const { content, episodes, navToggle } = this.state;
     return( 
-      <>
-        <Navbar />
+      <div className="selectedContent" onClick={() => this.handleClick()} >
+        <Navbar handleCallback={ () => this.handleCallback() } />
+        {navToggle && (
+          <MobileNav />
+        )}
         <Hero content={content} />
         <div className="carousel">
           {content.category === "Series" && (
@@ -75,7 +90,7 @@ class SelectedContent extends React.Component {
             })}
           </Slider>
         </div>
-      </>
+      </div>
     )
   }
 }

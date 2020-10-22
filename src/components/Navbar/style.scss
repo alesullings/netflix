@@ -1,5 +1,5 @@
 // breakpoints
-$mobile-breakpoint: 480px;
+$mobile-breakpoint: 360px;
 
 a {
   text-decoration: none;
@@ -20,6 +20,12 @@ a {
   
   @media (max-width: $mobile-breakpoint) {
     padding-left: 1rem;
+  }
+  .courflixLogo {
+    @media (max-width: $mobile-breakpoint) {
+      width: 50%;
+      margin-left: 4rem;
+    }
   }
   
   .hamburgerMenu {

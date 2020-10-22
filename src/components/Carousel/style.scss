@@ -1,27 +1,31 @@
 // breakpoints
-$mobile-breakpoint: 480px;
+$mobile-breakpoint: 360px;
 
 .carousel {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2.75rem;
-  width: 1050px;
+  width: 66rem;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 350px;
+    width: 17rem;
   }
-
+  
+  .carouselTitle {
+    margin-bottom: 1rem;
+   
+    @media (max-width: $mobile-breakpoint) {
+      font-size: 1.2rem;
+    }
+  }
   .imgContainer {
     .serieImg {
       border-radius: 5px;
       
       @media (max-width: $mobile-breakpoint) {
-        width: 350px;
+        width: 17rem;
       }
-    }
-    .carouselTitle {
-      margin-bottom: 1rem;
     }
   }
 }
