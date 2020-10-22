@@ -1,5 +1,5 @@
 // breakpoints
-$mobile-breakpoint: 480px;
+$mobile-breakpoint: 375px;
 
 .carousel {
   color: #fff;
@@ -19,6 +19,9 @@ $mobile-breakpoint: 480px;
   .imgContainer {
     .serieImg {
       border-radius: 5px;
+      @media (max-width: $mobile-breakpoint) {
+        width: 17rem;
+      }
     }
   }
 }

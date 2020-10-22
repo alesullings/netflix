@@ -1,5 +1,5 @@
 // breakpoints
-$mobile-breakpoint: 360px;
+$mobile-breakpoint: 375px;
 
 a {
   text-decoration: none;
@@ -24,7 +24,7 @@ a {
   .courflixLogo {
     @media (max-width: $mobile-breakpoint) {
       width: 50%;
-      margin-left: 4rem;
+      margin-left: 5rem;
     }
   }
   
