@@ -5,6 +5,8 @@ import Hero from '../components/Hero';
 import Slider from 'react-slick';
 import './style.scss';
 import MobileNav from '../components/MobileNav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 class SelectedContent extends React.Component {
  
@@ -82,7 +84,7 @@ class SelectedContent extends React.Component {
           <Slider {...this.settings} className="episodesCarousel">
             {episodes.map((episode, key) => {
               return(
-              <div className="imgContainer">
+              <div className="imgWrapper" >
                 <img className="serieImg" src={episode.episodeThumbnail} key={key} />
               </div>
               )
@@ -92,10 +94,19 @@ class SelectedContent extends React.Component {
             {episodes.map((episode, key) => {
               return(
                 <div className="episodeWrapper">
-                  <img className="serieImg" src={episode.episodeThumbnail} key={key} />
+                  <div className="serieImg" key={key} 
+                    style={{
+                      background: "url(" + episode.episodeThumbnail + ")" + "0px 0px/cover"
+                    }}>
+                   <FontAwesomeIcon icon={faPlay} className="playButton" />
+                  </div>
                   <div className="serieInfo">
-                    <h3 className="episodeTitle">{episode.episodeTitle}</h3>
-                    <p className="episodeSynopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h3 className="episodeTitle">
+                      {episode.episodeTitle}
+                      </h3>
+                    <p className="episodeSynopsis">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
                   </div>
                 </div>
               )

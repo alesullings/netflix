@@ -23,12 +23,10 @@ $mobile-breakpoint: 360px;
       @media (max-width: $mobile-breakpoint) {
         display: none;
       }
-      .imgContainer {
-        display: flex;
-        flex-direction: row;
+      .imgWrapper {
         
         .serieImg {
-          border-radius: 5px;
+          border-radius: 5px;    
         }
       }
     }
@@ -45,13 +43,22 @@ $mobile-breakpoint: 360px;
         flex-direction: row;
 
         .serieImg {
-          width: 8rem;
+          min-width: 8rem;
           border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .playButton {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.7);
+          }
         }
         .serieInfo {
           margin-left: .5rem;
           .episodeTitle {
             font-size: 0.9rem;
+            margin-bottom: 0.2rem;
           }
           .episodeSynopsis {
             font-size: 0.7rem;
