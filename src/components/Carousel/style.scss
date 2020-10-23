@@ -9,7 +9,7 @@ $mobile-breakpoint: 360px;
   width: 66rem;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 17rem;
+    width: 18rem;
   }
   
   .carouselTitle {
@@ -24,7 +24,7 @@ $mobile-breakpoint: 360px;
       border-radius: 5px;
       
       @media (max-width: $mobile-breakpoint) {
-        width: 17rem;
+        width: 18rem;
       }
     }
   }

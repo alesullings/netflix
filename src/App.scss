@@ -20,7 +20,7 @@ body {
   width: 66rem;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 17rem;
+    width: 18rem;
     margin-left: 2rem;
   }
   
@@ -37,7 +37,7 @@ body {
       border-radius: 5px;
       
       @media (max-width: $mobile-breakpoint) {
-        width: 17rem;
+        width: 18rem;
       }
       
     }

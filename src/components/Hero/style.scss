@@ -4,9 +4,12 @@ $mobile-breakpoint: 360px;
 .background {
   padding-top: 13rem;
   
+  @media (max-width: $mobile-breakpoint) {
+    padding-top: 7rem;
+  }
   .gradient {
     background: linear-gradient(180deg, rgba(255,255,255,0) 00%, rgba(255,255,255,0) 10%, rgba(0,0,0,1) 100%);
-  
+
     .heroWrapper {
       margin-left: 5rem;
       color: #fff;

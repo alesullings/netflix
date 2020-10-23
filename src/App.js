@@ -40,7 +40,7 @@ class App extends React.Component {
           }
         },
         {
-          breakpoint: 375,
+          breakpoint: 360,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
