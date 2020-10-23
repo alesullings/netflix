@@ -1,26 +1,63 @@
 // breakpoints
 $mobile-breakpoint: 360px;
 
-.carousel {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 1rem;
-  margin-left: 5rem;
-  
-  @media (max-width: $mobile-breakpoint) {
-    width: 18rem;
-    margin-left: 2rem;
-  }
-  .carouselTitle {
-    margin-bottom: 1rem;
-  }
+.selectedContent {
+  .carousel {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    
+    @media (max-width: $mobile-breakpoint) {
+      width: 18rem;
+      margin-left: 2rem;
+    }
 
-  .imgContainer {
-    .serieImg {
-      border-radius: 5px;
+    .carouselTitle {
+      margin-bottom: 1rem;
+    }
+
+    .episodesCarousel {
+      
       @media (max-width: $mobile-breakpoint) {
-        width: 18rem;
+        display: none;
+      }
+      .imgContainer {
+        display: flex;
+        flex-direction: row;
+        
+        .serieImg {
+          border-radius: 5px;
+        }
+      }
+    }
+    
+    .mobileEpisodes {
+      display: none;
+
+      @media (max-width: $mobile-breakpoint) {
+        display: inline-block;
+      }
+      .episodeWrapper {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+
+        .serieImg {
+          width: 8rem;
+          border-radius: 5px;
+        }
+        .serieInfo {
+          margin-left: .5rem;
+          .episodeTitle {
+            font-size: 0.9rem;
+          }
+          .episodeSynopsis {
+            font-size: 0.7rem;
+            font-weight: 400;
+          }
+        }
       }
     }
   }

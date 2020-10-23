@@ -7,9 +7,11 @@ $mobile-breakpoint: 360px;
   font-weight: 700;
   margin-top: 2.75rem;
   width: 66rem;
+  margin-left: 5rem;
 
   @media (max-width: $mobile-breakpoint) {
     width: 18rem;
+    margin-left: 2rem;
   }
   
   .carouselTitle {

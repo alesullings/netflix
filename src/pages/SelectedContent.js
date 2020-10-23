@@ -32,11 +32,10 @@ class SelectedContent extends React.Component {
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 360,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1,
-            
+            slidesToScroll: 1
           }
         }
       ]
@@ -80,7 +79,7 @@ class SelectedContent extends React.Component {
           {content.category === "Series" && (
             <h3 className="carouselTitle">Temporada 1</h3>
           )}
-          <Slider {...this.settings} >
+          <Slider {...this.settings} className="episodesCarousel">
             {episodes.map((episode, key) => {
               return(
               <div className="imgContainer">
@@ -89,6 +88,19 @@ class SelectedContent extends React.Component {
               )
             })}
           </Slider>
+          <div className="mobileEpisodes">
+            {episodes.map((episode, key) => {
+              return(
+                <div className="episodeWrapper">
+                  <img className="serieImg" src={episode.episodeThumbnail} key={key} />
+                  <div className="serieInfo">
+                    <h3 className="episodeTitle">{episode.episodeTitle}</h3>
+                    <p className="episodeSynopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </div>
       </div>
     )
