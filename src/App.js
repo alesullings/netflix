@@ -85,12 +85,11 @@ class App extends React.Component {
           <MobileNav />
         )}
         <Hero content={content} />
-        <div className="keepWatching">
           {stringifiedSeries && (
+        <div className="keepWatching">
             <h3 id="Recientes" className="carouselTitle">
               Seguir viendo
             </h3>
-          )}
           <Slider {...this.settings}>
             {keepWatching.map((element, key) => {
               return(
@@ -107,6 +106,7 @@ class App extends React.Component {
             })}
           </Slider>
         </div>
+          )}
         {series.categories.map((category, key) => {
           return(
             <Carousel className="carouselWrapper" key={key} category={category} />
