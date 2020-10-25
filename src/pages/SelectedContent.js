@@ -21,7 +21,7 @@ class SelectedContent extends React.Component {
     }
     
     this.settings = {
-      slidesToShow: 5,
+      slidesToShow: 4,
       slidesToScroll: 1,
       infinite: true,
       speed: 500,
