@@ -2,6 +2,7 @@ import React from 'react';
 import series from '../data/series.json';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 import Slider from 'react-slick';
 import './style.scss';
 import MobileNav from '../components/MobileNav';
@@ -113,6 +114,7 @@ class SelectedContent extends React.Component {
             })}
           </div>
         </div>
+        <Footer />
       </div>
     )
   }

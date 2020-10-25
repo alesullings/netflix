@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import MobileNav from './components/MobileNav';
 import Hero from './components/Hero';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 
@@ -112,6 +113,7 @@ class App extends React.Component {
             <Carousel className="carouselWrapper" key={key} category={category} />
           )
         })}
+        <Footer />
       </div>
     )
   }
