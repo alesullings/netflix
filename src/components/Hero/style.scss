@@ -1,6 +1,9 @@
 // breakpoints
 $mobile-breakpoint: 360px;
 
+// color
+$netflixRed: rgb(229, 9, 20);
+
 .background {
   padding-top: 13rem;
   
@@ -62,7 +65,7 @@ $mobile-breakpoint: 360px;
             border-radius: .3rem;
           }
           &:hover {
-            background: red;
+            background: $netflixRed;
           }
         }
       }

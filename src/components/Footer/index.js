@@ -1,10 +1,18 @@
 import React from 'react';
 import './style.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faTwitter, faYoutube, faInstagramSquare } from '@fortawesome/free-brands-svg-icons' 
 
 class Footer extends React.Component {
   render() {
     return(
       <div className="footer">
+        <div className="socialMedia">
+          <FontAwesomeIcon icon={faFacebook} className="socialMediaIcon" />
+          <FontAwesomeIcon icon={faInstagramSquare} className="socialMediaIcon" />
+          <FontAwesomeIcon icon={faTwitter} className="socialMediaIcon" />
+          <FontAwesomeIcon icon={faYoutube} className="socialMediaIcon" />
+        </div>
         <div className="footerLinks">
           <div className="column">
             <span className="link">Audio y subtitulos</span>

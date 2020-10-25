@@ -3,7 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 // breakpoints
-$mobile-breakpoint: 360px;
+$mobileBreakpoint: 360px;
+$notebookBreakpoint: 1300px;
+
+// color
+$netflixRed: rgb(229, 9, 20);
+
 
 body {
   font-size: 16px;
@@ -16,19 +21,22 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   margin-left: 5rem;
-  width: 66rem;
+  width: 87rem;
 
-  @media (max-width: $mobile-breakpoint) {
+  @media (max-width: $notebookBreakpoint) {
+    width: 66rem;
+  }
+
+  @media (max-width: $mobileBreakpoint) {
     width: 18rem;
     margin-left: 2rem;
-
   }
   
   .carouselTitle {
     margin-top: 2.75rem;
     margin-bottom: 1rem;
     
-    @media (max-width: $mobile-breakpoint) {
+    @media (max-width: $mobileBreakpoint) {
       font-size: 1.2rem;
     }
   }
@@ -37,7 +45,7 @@ body {
     .serieImg {
       border-radius: 5px;
       
-      @media (max-width: $mobile-breakpoint) {
+      @media (max-width: $mobileBreakpoint) {
         width: 18rem;
       }
       
@@ -50,14 +58,14 @@ body {
       margin-left: .8rem;
       border-radius: 2px;
 
-      @media (max-width: $mobile-breakpoint) {
+      @media (max-width: $mobileBreakpoint) {
         width: 16rem;
       }
 
       .redBar {
         height: 5px;
         width: 5rem;
-        background-color: red;
+        background-color: $netflixRed;
         border-radius: 2px;
       }
     }

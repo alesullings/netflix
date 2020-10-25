@@ -15,7 +15,7 @@ class Carousel extends React.Component {
     }
     
     this.settings = {
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       infinite: true,
       speed: 500,
