@@ -20,21 +20,29 @@ class Navbar extends React.Component {
   }
 
   render() {
- 
+    const {showNavLinks} = this.props;
+
     return(
       <>
         <header className="header" onClick={(e) => this.preventCloseMenu(e)} >
+          {showNavLinks && (
+
           <FontAwesomeIcon icon={faBars} className="hamburgerMenu" onClick={(e) => this.handleClick(e)} />
+          )}
           <Link to="/">
             <img className="courflixLogo" src="https://i.postimg.cc/0547t0FP/courflix-logo.png" />
           </Link>
-          <nav className="navbar">
-            <a href="#" className="sectionLink">Inicio</a>
-            <a href="#Series" className="sectionLink">Series</a>
-            <a href="#Peliculas" className="sectionLink">Peliculas</a>
-            <a href="#Recientes" className="sectionLink">Seguir viendo</a>
-            <a className="sectionLink">Mi lista</a>
-          </nav>
+          {showNavLinks && (
+            <nav className="navbar">
+              <a href="#" className="sectionLink">Inicio</a>
+              <a href="#Series" className="sectionLink">Series</a>
+              <a href="#Peliculas" className="sectionLink">Peliculas</a>
+              <a href="#Recientes" className="sectionLink">Seguir viendo</a>
+              <Link to="/mylist">
+                <a className="sectionLink">Mi lista</a>
+              </Link>
+            </nav>
+          )}
         </header>
       </>
     )

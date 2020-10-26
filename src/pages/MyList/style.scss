@@ -1,0 +1,48 @@
+// breakpoints
+$mobileBreakpoint: 360px;
+
+
+.myList {
+  padding-top: 8rem;
+  padding-left: 5rem;
+  max-width: 100%;
+  
+  @media (max-width: $mobileBreakpoint) {
+    padding-left: 2rem;
+    padding-top: 4rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2rem;
+
+    @media (max-width: $mobileBreakpoint) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .seriesWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .imgContainer {
+      .serieImg {
+        margin-right: .5rem;
+        margin-bottom: .5rem;
+        border-radius: 5px;
+        
+        @media (max-width: $mobileBreakpoint) {
+          width: 280px;
+        }
+
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 20rem;
+  }
+}

@@ -22,7 +22,8 @@ class App extends React.Component {
         synopsis: 'Un profesor de Química de secundaria con cáncer terminal se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.'
       },
       keepWatching: [],
-      navToggle: false
+      navToggle: false,
+      showNavLinks: true
     }
     
     this.settings = {
@@ -79,16 +80,20 @@ class App extends React.Component {
   render() {
     const {content, keepWatching, navToggle} = this.state;
     const stringifiedSeries = localStorage.getItem('series');
+
     return(
       <div className="app" onClick={() => this.handleClick()}>
-        <Navbar handleCallback={() => this.handleCallback()} />
+        <Navbar 
+          showNavLinks={this.state.showNavLinks} 
+          handleCallback={() => this.handleCallback()} 
+        />
         {navToggle && (
           <MobileNav />
         )}
         <Hero content={content} />
           {stringifiedSeries && (
         <div className="keepWatching">
-            <h3 id="Recientes" className="carouselTitle">
+            <h3 className="carouselTitle">
               Seguir viendo
             </h3>
           <Slider {...this.settings}>

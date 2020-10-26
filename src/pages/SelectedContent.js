@@ -1,11 +1,11 @@
 import React from 'react';
 import series from '../data/series.json';
 import Navbar from '../components/Navbar';
+import MobileNav from '../components/MobileNav';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import Slider from 'react-slick';
 import './style.scss';
-import MobileNav from '../components/MobileNav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,7 +17,8 @@ class SelectedContent extends React.Component {
     this.state = {
       content: [],
       episodes: [],
-      navToggle: false
+      navToggle: false,
+      showNavLinks: false
     }
     
     this.settings = {
@@ -68,12 +69,12 @@ class SelectedContent extends React.Component {
       navToggle: false
     })
   }
-
+  
   render() {
     const { content, episodes, navToggle } = this.state;
     return( 
       <div className="selectedContent" onClick={() => this.handleClick()} >
-        <Navbar handleCallback={ () => this.handleCallback() } />
+        <Navbar showNavLinks={this.state.showNavLinks} handleCallback={ () => this.handleCallback() } />
         {navToggle && (
           <MobileNav />
         )}

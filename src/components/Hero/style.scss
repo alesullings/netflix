@@ -65,6 +65,9 @@ $netflixRed: rgb(229, 9, 20);
             border-radius: .3rem;
           }
           &:hover {
+            background: rgba(157, 151, 151, 0.75);
+          }
+          &:active {
             background: $netflixRed;
           }
         }

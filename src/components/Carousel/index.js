@@ -75,8 +75,8 @@ class Carousel extends React.Component {
     const {category} = this.props;
     const {content} = this.state;
     return(
-      <div className="carousel">
-        <h3 id={category} className="carouselTitle">{category}</h3>
+      <div id={category} className="carousel">
+        <h3 className="carouselTitle">{category}</h3>
         <Slider {...this.settings}>
           {content.map((element, key) => {
             return(

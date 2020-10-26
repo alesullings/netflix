@@ -3,6 +3,28 @@ import './style.scss';
 
 class Hero extends React.Component {
 
+  handleClick() {
+    const { content } = this.props;
+   
+    const stringifiedList = localStorage.getItem('list');
+   
+    if (stringifiedList) {
+      const parsedList = JSON.parse(stringifiedList)
+
+      if(!parsedList.some(serie => serie.id === content.id)) {
+        parsedList.push(content)
+        const newList = JSON.stringify(parsedList)
+        localStorage.setItem('list', newList)
+      }
+      
+    } else {
+      const parsedList = [content]
+      const newList = JSON.stringify(parsedList)
+      localStorage.setItem('list', newList)
+    }
+
+  }
+
   render() { 
     const {title, netflixOriginal, backgroundImg, synopsis } = this.props.content;
     return (
@@ -21,11 +43,11 @@ class Hero extends React.Component {
               <div className="button">
                 Reproducir
               </div>
-              <div className="button">
+              <div className="button" onClick={() => this.handleClick() }>
                 + mi lista
               </div>
             </div>
-            <p className="synopsis">
+            <p id="Recientes" className="synopsis">
               {synopsis}
             </p>
           </div>
