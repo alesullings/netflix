@@ -1,7 +1,17 @@
 import React from 'react';
 import './style.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus, faPlay, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 class Hero extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      dynamicIcon: faPlus
+    }
+  }
 
   handleClick() {
     const { content } = this.props;
@@ -15,6 +25,19 @@ class Hero extends React.Component {
         parsedList.push(content)
         const newList = JSON.stringify(parsedList)
         localStorage.setItem('list', newList)
+
+        this.setState({
+          dynamicIcon: faCheck
+        })
+
+      } else {
+        parsedList.pop(content)
+        const newList = JSON.stringify(parsedList)
+        localStorage.setItem('list', newList)
+        
+        this.setState({
+          dynamicIcon: faPlus
+        })
       }
       
     } else {
@@ -27,6 +50,7 @@ class Hero extends React.Component {
 
   render() { 
     const {title, netflixOriginal, backgroundImg, synopsis } = this.props.content;
+    const {dynamicIcon} = this.state
     return (
       <div className="background" style={{background: "url(" + backgroundImg + ")" + "0px 0px/cover"}} >
         <div className="gradient">
@@ -40,11 +64,13 @@ class Hero extends React.Component {
               {title}
             </h1>
             <div className="buttonsWrapper">
-              <div className="button">
+              <div className="playButton">
+                <FontAwesomeIcon icon={faPlay} className="playIcon" />
                 Reproducir
               </div>
-              <div className="button" onClick={() => this.handleClick() }>
-                + mi lista
+              <div className="addButton" onClick={() => this.handleClick() }>
+                <FontAwesomeIcon icon={dynamicIcon} className="buttonIcon" />
+                <span className="buttonText">+ mi lista</span>
               </div>
             </div>
             <p id="Recientes" className="synopsis">
