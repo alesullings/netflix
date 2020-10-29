@@ -15,6 +15,7 @@ class MyList extends React.Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     
     const stringifiedList = localStorage.getItem('list');
     if (stringifiedList) {

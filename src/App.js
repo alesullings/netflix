@@ -53,6 +53,7 @@ class App extends React.Component {
   }
   
   componentDidMount() {
+    window.scrollTo(0, 0);
     
     const stringifiedSeries = localStorage.getItem('series');
     if (stringifiedSeries) {

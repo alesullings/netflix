@@ -7,15 +7,11 @@ class Hero extends React.Component {
 
   constructor(props) {
     super(props);
-
-    this.state = {
-      dynamicIcon: faPlus
-    }
   }
+
 
   handleClick() {
     const { content } = this.props;
-   
     const stringifiedList = localStorage.getItem('list');
    
     if (stringifiedList) {
@@ -25,32 +21,26 @@ class Hero extends React.Component {
         parsedList.push(content)
         const newList = JSON.stringify(parsedList)
         localStorage.setItem('list', newList)
-
-        this.setState({
-          dynamicIcon: faCheck
-        })
-
       } else {
-        parsedList.pop(content)
-        const newList = JSON.stringify(parsedList)
+        const filteredList = parsedList.filter((series) => {
+          return series.id !== content.id;
+        });
+        const newList = JSON.stringify(filteredList)
         localStorage.setItem('list', newList)
-        
-        this.setState({
-          dynamicIcon: faPlus
-        })
       }
-      
     } else {
       const parsedList = [content]
       const newList = JSON.stringify(parsedList)
       localStorage.setItem('list', newList)
     }
-
   }
 
   render() { 
     const {title, netflixOriginal, backgroundImg, synopsis } = this.props.content;
-    const {dynamicIcon} = this.state
+    const {content} = this.props;
+    const stringifiedList = localStorage.getItem('list');
+    const parsedList = JSON.parse(stringifiedList)
+
     return (
       <div className="background" style={{background: "url(" + backgroundImg + ")" + "0px 0px/cover"}} >
         <div className="gradient">
@@ -69,8 +59,15 @@ class Hero extends React.Component {
                 Reproducir
               </div>
               <div className="addButton" onClick={() => this.handleClick() }>
-                <FontAwesomeIcon icon={dynamicIcon} className="buttonIcon" />
-                <span className="buttonText">+ mi lista</span>
+                {!parsedList 
+                  ? <FontAwesomeIcon icon={faPlus} className="buttonIcon" />
+                  : [
+                      (parsedList.some(serie => serie.id === content.id)
+                      ? <FontAwesomeIcon icon={faCheck} className="buttonIcon" />
+                      : <FontAwesomeIcon icon={faPlus} className="buttonIcon" />
+                      )
+                    ] 
+                }
               </div>
             </div>
             <p id="Recientes" className="synopsis">

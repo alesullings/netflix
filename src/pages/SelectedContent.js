@@ -47,6 +47,8 @@ class SelectedContent extends React.Component {
   }
  
   componentDidMount() {
+    window.scrollTo(0, 0);
+    
     const filteredContent = series.content.filter((serie) => {
       return serie.id == this.props.match.params.id;
     });
@@ -86,7 +88,7 @@ class SelectedContent extends React.Component {
           <Slider {...this.settings} className="episodesCarousel">
             {episodes.map((episode, key) => {
               return(
-              <div className="imgWrapper" >
+              <div className="imgWrapper" key={key}>
                 <img className="serieImg" src={episode.episodeThumbnail} key={key} />
               </div>
               )
@@ -95,7 +97,7 @@ class SelectedContent extends React.Component {
           <div className="mobileEpisodes">
             {episodes.map((episode, key) => {
               return(
-                <div className="episodeWrapper">
+                <div className="episodeWrapper" key={key}>
                   <div className="serieImg" key={key} 
                     style={{
                       background: "url(" + episode.episodeThumbnail + ")" + "0px 0px/cover"
